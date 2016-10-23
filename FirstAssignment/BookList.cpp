@@ -15,6 +15,14 @@ void BookList::search(string t) {
 }
 
 void BookList::insert(string t, int q, double p) {
+	Book* pointer;
+	Book b;
+	b.title = t;
+	b.quantity = q;
+	b.price = p;
+	pointer = &b;
+
+	
 
 }
 

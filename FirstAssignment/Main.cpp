@@ -3,11 +3,9 @@
 
 int main() {
 
-	Book myBook;
-	myBook.title = "Fire";
+	BookList list;
+	list.insert("Hue Xiong", 3, 2.00);
 	
-
-	cout << "Hello World" << endl;
 
 	system("pause");
 }
